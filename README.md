@@ -1,11 +1,21 @@
 
-# Proyecto de Gestión de Autores y Publicaciones
+# Practica Calificada 3
 
-![Diagrama de Clases](diagramaclases.png)
+Usando el Modelo Vista Controlador desarrollar el siguiente sistema segun las especificaciones del diagrama de clases y la documentacion dada   
 
-Este proyecto tiene como objetivo gestionar autores y sus publicaciones mediante clases y métodos definidos en Java. A continuación, se describen las clases `Autor` y `Publicacion`, así como sus respectivos métodos y las interacciones entre ellas.
+<img src="diagramaclases.png" alt="Diagrama de Clases" width="500"/>
 
-## Clase `Autor`
+
+## Pregunta 1: Crear la clase `Publicacion`
+
+Crear la clase segun el diagrama de clases y segun las siguientes indicaciones:
+
+`Metodo`
+- `toString`: Este método retornará todos los atributos de la publicación.
+
+## Pregunta 2: Crear la clase `Autor`
+
+Crear la clase segun el diagrama de clases y segun las siguientes indicaciones:
 
 ### Atributos
 - `TamañoArreglo`: Representa el número máximo de publicaciones que el arreglo puede contener.
@@ -25,23 +35,16 @@ Este proyecto tiene como objetivo gestionar autores y sus publicaciones mediante
 ### Constructor
 - Inicializa `CantidadPublicaciones` en cero.
 
-## Clase `Publicacion`
-
-### Métodos
-- `toString`: Retorna todos los atributos de la publicación.
-
-## Controlador `ControladorAutor`
+## Pregunta 3: Crear la clase `ControladorAutor`
 
 ### Métodos
 - `AgregarPublicacion`: Llama al método `AgregarPublicacion` de la clase `Autor` y propaga cualquier error a la vista.
 - `ImprimirAutor`: Utiliza el método `toString` del `Autor` para imprimir los detalles del mismo.
 
-## Vista `VistaAutor`
+## Pregunta 4: Crear la clase `VistaAutor`
 
 ### Funcionalidades
 - Crear dos autores, cada uno con tres publicaciones.
 - Imprimir los autores con sus respectivas publicaciones utilizando los métodos definidos en las otras clases.
-
-## `main`
 
 No se requiere un menú para esta implementación; el código puede escribirse directamente en el método `main`. Uno de los autores a crear debe ser usted mismo, utilizando sus datos personales.
